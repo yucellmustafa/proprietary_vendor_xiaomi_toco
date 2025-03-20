@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/toco/proprietary/vendor/etc/camera/CFR_para_W_src2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_W_src2.bin \
     vendor/xiaomi/toco/proprietary/vendor/etc/camera/LDC_FPC_TUNING_DATA.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_FPC_TUNING_DATA.bin \
     vendor/xiaomi/toco/proprietary/vendor/etc/camera/LDC_PACKDATA_VENDORID_0x01.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_PACKDATA_VENDORID_0x01.bin \
+    vendor/xiaomi/toco/proprietary/vendor/etc/camera/Miui-Light.ttf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/Miui-Light.ttf \
     vendor/xiaomi/toco/proprietary/vendor/etc/camera/almalence_sr_params_tele.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele.config \
     vendor/xiaomi/toco/proprietary/vendor/etc/camera/almalence_sr_params_wide.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_wide.config \
     vendor/xiaomi/toco/proprietary/vendor/etc/camera/beauty_ui9_intelligent_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beauty_ui9_intelligent_params.config \
@@ -32,6 +33,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/toco/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/xiaomi/toco/proprietary/vendor/etc/camera/eisoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eisoverridesettings.txt \
     vendor/xiaomi/toco/proprietary/vendor/etc/camera/eyelineblush.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eyelineblush.cng \
+    vendor/xiaomi/toco/proprietary/vendor/etc/camera/golden_rear_dc_cal_wt.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_rear_dc_cal_wt.bin \
+    vendor/xiaomi/toco/proprietary/vendor/etc/camera/hdr_ui9_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hdr_ui9_params.config \
     vendor/xiaomi/toco/proprietary/vendor/etc/camera/lf_facerank_model.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/lf_facerank_model.bin \
     vendor/xiaomi/toco/proprietary/vendor/etc/camera/megviifacepp_0_5_2_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/megviifacepp_0_5_2_model \
     vendor/xiaomi/toco/proprietary/vendor/etc/camera/mibokeh_712_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_712_opencl.bin \
@@ -40,7 +43,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/toco/proprietary/vendor/etc/camera/morpho_lowlight4.0_adrc_high_1_algoup.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight4.0_adrc_high_1_algoup.xml \
     vendor/xiaomi/toco/proprietary/vendor/etc/camera/morpho_lowlight4.0_adrc_high_algoup.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight4.0_adrc_high_algoup.xml \
     vendor/xiaomi/toco/proprietary/vendor/etc/camera/morpho_lowlight4.0_algoup.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight4.0_algoup.xml \
+    vendor/xiaomi/toco/proprietary/vendor/etc/camera/sceneDetection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sceneDetection.xml \
     vendor/xiaomi/toco/proprietary/vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin \
+    vendor/xiaomi/toco/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
+    vendor/xiaomi/toco/proprietary/vendor/etc/camera/watermark_font_2300_3199.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark_font_2300_3199.dat \
     vendor/xiaomi/toco/proprietary/vendor/etc/elliptic_sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/elliptic_sensor.xml \
     vendor/xiaomi/toco/proprietary/vendor/etc/init/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.batterysecret.rc \
     vendor/xiaomi/toco/proprietary/vendor/etc/init/init.mi_thermald.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mi_thermald.rc \
@@ -48,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/toco/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/toco/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/xiaomi/toco/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
-    vendor/xiaomi/toco/proprietary/vendor/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF.conf \
     vendor/xiaomi/toco/proprietary/vendor/etc/sensors/config/adux1050_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/adux1050_0.json \
     vendor/xiaomi/toco/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
     vendor/xiaomi/toco/proprietary/vendor/etc/sensors/config/lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6dso_0.json \
@@ -131,7 +136,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/toco/proprietary/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
     vendor/xiaomi/toco/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
     vendor/xiaomi/toco/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
-    vendor/xiaomi/toco/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
+    vendor/xiaomi/toco/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
+    vendor/xiaomi/toco/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf
 
 PRODUCT_PACKAGES += \
     btaudio_offload_if \
@@ -156,7 +162,6 @@ PRODUCT_PACKAGES += \
     com.qti.sensor.toco_ov16a10_front \
     com.qti.sensor.toco_ov8856_ultra \
     com.qti.sensor.toco_s5k5e9yx04_depth \
-    com.almalence.node.sr \
     com.altek.node.depurple \
     com.altek.node.distortioncorrection \
     com.arcsoft.node.bodyslim \
@@ -184,6 +189,7 @@ PRODUCT_PACKAGES += \
     com.qti.node.fcv \
     com.qti.node.gpu \
     com.qti.node.memcpy \
+    com.qti.node.mimovie \
     com.qti.node.photosolid \
     com.qti.node.remosaic \
     com.qti.node.stich \
@@ -206,6 +212,7 @@ PRODUCT_PACKAGES += \
     com.qtistatic.stats.af \
     com.qtistatic.stats.awb \
     com.qtistatic.stats.pdlib \
+    com.st.node.sr \
     com.vidhance.node.eis \
     com.vidhance.stats.aec_dmbr \
     com.visidon.node.clearshot \
@@ -230,6 +237,7 @@ PRODUCT_PACKAGES += \
     libalAILDC \
     libalCFR \
     libalLDC \
+    libalRnBRT_GL_GBWRAPPER \
     libalhLDC \
     libarcsat \
     libarcsoft_beautyshot \
@@ -248,39 +256,56 @@ PRODUCT_PACKAGES += \
     libc++_shared \
     libcamera_nn_stub \
     libcamera_scene \
+    libcamxfdalgov7 \
     libcamxfdalgov8 \
     libcamxfdengine \
     libcamxstatscore \
     libcamxswprocessalgo \
     libcamxtintlessalgo \
+    libcapiv2svacnn \
+    libcapiv2vop \
     libcom.qti.chinodeutils \
     libfacedet \
     libft2vendor \
     libgf_hal \
     libhvx_interface \
+    liblearningmodule \
     libmialgo_fs \
     libmialgo_rfs \
     libmialgo_sd \
     libmialgo_utils \
     libmibokeh_712 \
     libmpbase \
+    libnanopb \
     libnotifyaudiohal \
     liboemcrypto \
+    libperfconfig \
+    libperfgluelayer \
+    libqti-util \
     libremosaic_daemon \
     libremosaiclib \
+    libsdk_sr \
+    libsensorcal \
     libsensorslog \
     libsn100u_fw \
+    libsns_device_mode_stub \
     libsns_fastRPC_util \
     libsns_low_lat_stream_stub \
     libsnsapi \
     libsnsdiaglog \
     libssc \
+    libssc_default_listener \
+    libssccalapi \
+    libst_sr_models \
+    libswregistrationalgo \
     libthermalclient \
     libtriplecam_optical_zoom_control \
     libtriplecam_video_optical_zoom \
     libultrasound \
     libvidhance \
+    libwebrtc_audio_preprocessing \
     libxmi_high_dynamic_range \
+    libxml2_vendor \
     sensors.elliptic \
     sensors.mius.proximity \
     sensors.ssc \
@@ -308,8 +333,6 @@ PRODUCT_PACKAGES += \
     libhexagon_nn_skel_secondary \
     libscveObjectSegmentation_skel \
     libscveT2T_skel \
-    libsns_device_mode_skel \
-    libsns_low_lat_stream_skel \
     misound_karaoke_res \
     misound_karaokemix_res \
     misound_res \
