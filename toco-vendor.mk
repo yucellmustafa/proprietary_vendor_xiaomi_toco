@@ -333,6 +333,8 @@ PRODUCT_PACKAGES += \
     libhexagon_nn_skel_secondary \
     libscveObjectSegmentation_skel \
     libscveT2T_skel \
+    libsns_device_mode_skel \
+    libsns_low_lat_stream_skel \
     misound_karaoke_res \
     misound_karaokemix_res \
     misound_res \
